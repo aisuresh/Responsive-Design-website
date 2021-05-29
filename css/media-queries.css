@@ -1,0 +1,209 @@
+/************************************************************************************
+smaller than 1020
+*************************************************************************************/
+@media screen and (max-width: 1020px) {
+
+	/* pagewrap */
+	#wrap { width: 100%; /*width:1020px;*/ }
+	header{width: 100%; }
+	#banner{width: 100%;}
+	
+	
+	
+	/* content */
+	#container { width: 100%; }
+	#left_cont{ width:100%; }
+	#left_bar{ width:100%; }
+	#bottom{ width: 100%; }
+	footer { width: 100%; }
+	#footer_link{ width:100%;}
+	#cont{ float:left; width:100%;  }
+	
+	
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+	/* header */
+	
+	html {
+		-webkit-text-size-adjust: none;
+		width:100%;
+	}
+	body{
+		margin:0;
+		padding:0;
+	}
+	header {
+		height: auto;
+	}
+	#left_cont{ height:auto; width: 100%;}
+	#banner{width: 100%;}
+	div#warp{
+		width:100%;
+	}
+	
+	#banner{width: 100%;}
+	#left_cont{ width:100%;}
+	#left_bar{ width:100%;}
+	
+	#logo{ float:left; width:100%;}
+	nav{ float:right; width:100%; display:none;}
+	.MainMenu{
+		display:block !important;
+	}
+	
+	/* content */
+	#container {
+		width: 100%;
+		float: none;
+		margin: 20px 0;
+	}
+	#bottom{ width: 100%; float: left; display:none;}
+	#simg{ width:100px;}
+	footer {
+		width: 100%;
+		float: left;
+		height:auto;
+		margin: 20px 0;
+	}
+	.img_title{ float:left; width:100%;}
+	
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}
+		figure#banner{
+		width:100%;
+	}
+	figure#banner img{
+		width:100%;
+	}
+	div#container{
+		height:auto;
+		float:left;
+	}
+	
+	#footer_links{
+		width:100%;
+		margin-left:0;
+		height:auto;
+	}
+		.fpane{
+		width:100%;
+		margin-left:20px;
+	}
+	
+	#search_bar{
+		float:left;
+		width:100%;
+	}
+	
+	#copy_right{
+		width:100%;
+		margin-left:0;
+	}
+	#copy, #privacy{ width:100%; float:left; margin-top:10px;}
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+		width:100%;
+	}
+	div#warp{
+		width:100%;
+	}
+	
+	body{
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	#logo{ float:left; width:100%;}
+	nav{ float:right; width:100%; display:none;}
+	
+	.MainMenu{
+		display:block !important;
+	}
+	
+	#bottom{ width: 300px; float: left;}
+	#simg{ width:100px; float:left;}
+	#banner{width: 100%;}
+	#left_bar{width: 100%; float:left;}
+	.slide_img{ width: 100%; float:left;}
+	.slide_img img{ width:100%;}
+	.img_txt { width: 100%; float:left;}
+	.img_p, .img_p1{ width: 100%; margin-left:9px;}
+	.img img{ min-width: 100%; float:left; }
+	
+	figure#banner{
+		width:100%;
+	}
+		figure#banner img{
+		width:100%;
+	}
+	div#container{
+		height:auto;
+		float:left;
+	}
+	
+	#footer_links{
+		width:98%;
+		margin-left:0;
+		height:auto;
+	}
+	
+	.fpane{
+		width:100%;
+		margin-left:20px;
+	}
+	
+	#search_bar{
+		float:left;
+		width:100%;
+	}
+	
+	#copy_right{
+		width:100%;
+		margin-left:0;
+	}
+	#copy, #privacy{ width:100%; float:left; margin-top:10px;}
+	#email{ width:215px; margin-left:8px;}
+	#button{ width:100px;}	
+
+}
+
+@media screen and (max-width: 320px) {
+	.img, .img_title{ //width:100%;}
+	.img_p, .img_p1{ width:100%; margin-left:9px; float:left;}
+	.img img{ min-width: 100%; float:left; width:100%;}
+	#email{ width:140px;}
+	#button{ width:100px;}
+	#copy, #privacy{ width:100%; float:left; margin-top:10px;}
+}
+
+@media screen and (max-width: 240px) {
+	.img_p, .img_p1{ width:100%; margin-left:9px;  float:left;}
+	#email{ width:150px;}
+	#copy, #privacy{ width:100%; float:left; margin-top:10px;}
+}
